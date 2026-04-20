@@ -1,0 +1,11 @@
+node_modules/
+deign/
+dist/
+build/
+.env
+*.log
+coverage/
+.DS_Store
+Thumbs.db
+server/uploads/
+
