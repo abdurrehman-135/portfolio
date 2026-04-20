@@ -79,7 +79,7 @@ const ProfilePanel = ({ profile, onSave, isSaving }) => {
         <p className="eyebrow mb-2">Profile Settings</p>
         <h2 className="h2 fw-bold mb-2">Public Portfolio Identity</h2>
         <p className="text-muted-custom mb-0">
-          Update the hero, about section, contact details, and social links used across
+          Update the public profile, about section, contact details, and social links used across
           the site.
         </p>
       </div>
@@ -175,15 +175,6 @@ const ProfilePanel = ({ profile, onSave, isSaving }) => {
               className="form-control"
               name="resumeUrl"
               value={formState.resumeUrl}
-              onChange={handleChange}
-            />
-          </div>
-          <div className="col-md-6">
-            <label className="form-label text-soft-custom">Hero Image URL</label>
-            <input
-              className="form-control"
-              name="heroImageUrl"
-              value={formState.heroImageUrl}
               onChange={handleChange}
             />
           </div>

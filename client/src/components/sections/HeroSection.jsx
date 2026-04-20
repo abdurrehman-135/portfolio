@@ -50,14 +50,6 @@ const HeroSection = () => {
               <Link className="btn btn-ghost-light" to="/contact">
                 Contact Me
               </Link>
-              <a
-                className="btn btn-panel"
-                href={profile.resumeUrl || "#"}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Download Resume
-              </a>
             </div>
           </div>
         </div>
@@ -67,4 +59,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-

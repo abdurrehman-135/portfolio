@@ -59,6 +59,7 @@ JWT_SECRET=replace-with-a-strong-secret
 CLIENT_URL=http://localhost:5173
 ADMIN_EMAIL=admin@abdurportfolio.dev
 ADMIN_PASSWORD=portfolio123
+GITHUB_USERNAME=abdurrehman-135
 ```
 
 ### Client
@@ -90,6 +91,8 @@ Default seeded admin login:
 
 - Email: `admin@abdurportfolio.dev`
 - Password: `portfolio123`
+
+During seeding, the backend will also try to pull the latest public repositories from the configured `GITHUB_USERNAME` and use them as the project list. If GitHub is unavailable, it falls back to the local seed project data.
 
 ## Run the App
 

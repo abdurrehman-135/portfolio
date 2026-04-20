@@ -158,17 +158,19 @@ const ProjectsSection = ({
                     ))}
                   </div>
                   <div className="d-flex flex-wrap gap-3">
+                    {project.liveUrl ? (
+                      <a
+                        className="btn btn-aurora"
+                        href={project.liveUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Live Demo
+                      </a>
+                    ) : null}
                     <a
-                      className="btn btn-aurora"
-                      href={project.liveUrl || "#"}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Live Demo
-                    </a>
-                    <a
-                      className="btn btn-panel"
-                      href={project.githubUrl || "#"}
+                      className={`btn ${project.liveUrl ? "btn-panel" : "btn-aurora"}`}
+                      href={project.githubUrl}
                       target="_blank"
                       rel="noreferrer"
                     >

@@ -1,9 +1,10 @@
-import { useGetProfileQuery } from "../../api/portfolioApi";
+import { useGetProfileQuery, useGetProjectsQuery } from "../../api/portfolioApi";
 import LoadingSpinner from "../ui/LoadingSpinner";
 import SectionHeader from "../ui/SectionHeader";
 
 const AboutSection = ({ compact = false }) => {
   const { data: profile, isLoading, isError } = useGetProfileQuery();
+  const { data: projects = [] } = useGetProjectsQuery();
 
   if (isLoading) {
     return <LoadingSpinner label="Loading biography..." />;
@@ -17,6 +18,8 @@ const AboutSection = ({ compact = false }) => {
     );
   }
 
+  const projectCount = projects.length || profile.projectCount;
+
   return (
     <section className="section-shell surface-panel" id="about-section">
       <div className="container">
@@ -28,20 +31,7 @@ const AboutSection = ({ compact = false }) => {
           />
         ) : null}
         <div className="row g-4 align-items-center">
-          <div className="col-lg-5">
-            <div className="content-card overflow-hidden">
-              <img
-                className="img-fluid w-100 hero-image"
-                src={
-                  profile.heroImageUrl ||
-                  "https://images.unsplash.com/photo-1500648767791-00dcc994a43?auto=format&fit=crop&w=900&q=80"
-                }
-                alt={profile.name}
-                style={{ minHeight: compact ? "360px" : "480px", maxHeight: "520px" }}
-              />
-            </div>
-          </div>
-          <div className="col-lg-7">
+          <div className="col-12">
             <div className="content-card h-100">
               <p className="eyebrow mb-3">{profile.title}</p>
               <h3 className="h1 fw-bold mb-3">{profile.name}</h3>
@@ -57,7 +47,7 @@ const AboutSection = ({ compact = false }) => {
                 </div>
                 <div className="col-sm-6 col-xl-3">
                   <div className="surface-card rounded-4 p-3 h-100">
-                    <div className="stat-number">{profile.projectCount}+</div>
+                    <div className="stat-number">{projectCount}+</div>
                     <div className="text-soft-custom text-uppercase small">
                       Projects
                     </div>
@@ -95,4 +85,3 @@ const AboutSection = ({ compact = false }) => {
 };
 
 export default AboutSection;
-

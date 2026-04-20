@@ -5,78 +5,135 @@ export const profileData = {
   intro:
     "Architecting high-performance digital experiences with precision and modern engineering principles. Specializing in scalable systems and elegant interfaces.",
   about:
-    "Abdur Rehman Ansari is a full stack developer focused on turning product ideas into dependable, polished web experiences. This starter portfolio uses professional placeholder copy that can be updated later while preserving a production-ready data structure.",
+    "Abdur Rehman Ansari is a full stack developer focused on turning ideas into dependable, polished digital experiences. He enjoys working across the full stack, from building responsive and intuitive user interfaces to designing backend systems that are clean, scalable, and easy to maintain. With a strong interest in modern web technologies, problem-solving, and continuous learning, he approaches each project with a balance of technical precision and practical creativity. This portfolio starter now points to his real GitHub work and keeps the content structure easy to customize further as his experience and projects continue to grow.",
   location: "Global / Remote",
   email: "contact@abdurportfolio.dev",
   phone: "+92 300 0000000",
   resumeUrl: "https://example.com/abdur-rehman-ansari-resume.pdf",
-  githubUrl: "https://github.com/abdurrehmanansari",
+  githubUrl: "https://github.com/abdurrehman-135",
   linkedinUrl: "https://linkedin.com/in/abdurrehmanansari",
   twitterUrl: "https://twitter.com/abdurrehmanansari",
   heroImageUrl:
     "https://images.unsplash.com/photo-1500648767791-00dcc994a43?auto=format&fit=crop&w=900&q=80",
   yearsExperience: 5,
-  projectCount: 24,
-  educationLabel: "B.S. Computer Science",
+  projectCount: 46,
+  educationLabel: "Westcliff University",
   interests: ["Scalable Systems", "API Design", "Modern UI Engineering"],
 };
 
 export const projectData = [
   {
-    title: "Enterprise Analytics Engine",
-    category: "Analytics",
+    title: "Portfolio",
+    category: "Portfolio",
     description:
-      "A high-performance analytics platform for real-time operational dashboards, role-based insights, and exportable reporting.",
-    technologies: ["React", "Redux Toolkit", "Node.js", "MongoDB"],
-    githubUrl: "https://github.com/example/enterprise-analytics-engine",
-    liveUrl: "https://example.com/enterprise-analytics-engine",
+      "Personal portfolio repository from Abdur Rehman Ansari's GitHub profile, built primarily with JavaScript and structured for ongoing customization.",
+    technologies: ["JavaScript"],
+    githubUrl: "https://github.com/abdurrehman-135/portfolio",
+    liveUrl: "",
     imageUrl:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+      "https://placehold.co/1200x700/081425/adc6ff?text=Portfolio",
     featured: true,
-    status: "Live",
+    status: "In Review",
     order: 1,
   },
   {
-    title: "CryptoPulse Mobile App",
-    category: "FinTech",
+    title: "M6 W3 D2 Exercise",
+    category: "Practice",
     description:
-      "A product experience for crypto portfolio tracking with alerts, secure authentication, and modular API integrations.",
-    technologies: ["React", "Express", "JWT", "MongoDB"],
-    githubUrl: "https://github.com/example/cryptopulse",
-    liveUrl: "https://example.com/cryptopulse",
+      "Practice repository from Abdur Rehman Ansari's GitHub profile, centered on HTML coursework and implementation exercises.",
+    technologies: ["HTML"],
+    githubUrl: "https://github.com/abdurrehman-135/m6-w3-d2-exercise",
+    liveUrl: "",
     imageUrl:
-      "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=1200&q=80",
+      "https://placehold.co/1200x700/081425/adc6ff?text=M6+W3+D2+Exercise",
     featured: true,
     status: "In Review",
     order: 2,
   },
   {
-    title: "Architect Portfolio CMS",
-    category: "Portfolio",
+    title: "M6 W3 D2 Homework",
+    category: "Coursework",
     description:
-      "A CMS-driven personal site with editable content modules, portfolio curation, and responsive design patterns.",
-    technologies: ["React", "Bootstrap", "Express", "MongoDB"],
-    githubUrl: "https://github.com/example/portfolio-cms",
-    liveUrl: "https://example.com/portfolio-cms",
+      "Coursework repository from Abdur Rehman Ansari's GitHub profile, built primarily with JavaScript and kept available for review.",
+    technologies: ["JavaScript"],
+    githubUrl: "https://github.com/abdurrehman-135/m6-w3-d2-homework",
+    liveUrl: "",
     imageUrl:
-      "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=1200&q=80",
-    featured: false,
-    status: "Draft",
+      "https://placehold.co/1200x700/081425/adc6ff?text=M6+W3+D2+Homework",
+    featured: true,
+    status: "In Review",
     order: 3,
   },
   {
-    title: "OpsFlow Service Desk",
-    category: "SaaS",
+    title: "Module6 Week3 Day1 Homework",
+    category: "Coursework",
     description:
-      "A ticketing workflow tool for internal teams with dashboards, priority queues, and collaboration notes.",
-    technologies: ["React", "Redux Toolkit", "Node.js", "MongoDB"],
-    githubUrl: "https://github.com/example/opsflow",
-    liveUrl: "https://example.com/opsflow",
+      "JavaScript homework repository from Abdur Rehman Ansari's GitHub profile, representing current class work and code progress.",
+    technologies: ["JavaScript"],
+    githubUrl: "https://github.com/abdurrehman-135/-Module6-Week3-Day1-Homework",
+    liveUrl: "",
     imageUrl:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
+      "https://placehold.co/1200x700/081425/adc6ff?text=Module6+Week3+Day1+Homework",
     featured: true,
-    status: "Live",
+    status: "In Review",
     order: 4,
+  },
+  {
+    title: "Module6 Week3 Day1 Exercise File",
+    category: "Practice",
+    description:
+      "Exercise repository from Abdur Rehman Ansari's GitHub profile, built with JavaScript and stored as part of current learning work.",
+    technologies: ["JavaScript"],
+    githubUrl:
+      "https://github.com/abdurrehman-135/-Module6-Week3-Day1-Exercise-File",
+    liveUrl: "",
+    imageUrl:
+      "https://placehold.co/1200x700/081425/adc6ff?text=Module6+Week3+Day1+Exercise",
+    featured: true,
+    status: "In Review",
+    order: 5,
+  },
+  {
+    title: "Project3",
+    category: "Project",
+    description:
+      "Project repository from Abdur Rehman Ansari's GitHub profile, built primarily with JavaScript and included as an active code sample.",
+    technologies: ["JavaScript"],
+    githubUrl: "https://github.com/abdurrehman-135/project3",
+    liveUrl: "",
+    imageUrl:
+      "https://placehold.co/1200x700/081425/adc6ff?text=Project3",
+    featured: true,
+    status: "In Review",
+    order: 6,
+  },
+  {
+    title: "M6 W2 D2 Homework",
+    category: "Coursework",
+    description:
+      "Coursework repository from Abdur Rehman Ansari's GitHub profile, focused on JavaScript practice and weekly delivery.",
+    technologies: ["JavaScript"],
+    githubUrl: "https://github.com/abdurrehman-135/m6-w2-d2-homework-",
+    liveUrl: "",
+    imageUrl:
+      "https://placehold.co/1200x700/081425/adc6ff?text=M6+W2+D2+Homework",
+    featured: false,
+    status: "Draft",
+    order: 7,
+  },
+  {
+    title: "M6 W2 D2 Demo",
+    category: "Demo",
+    description:
+      "Demo repository from Abdur Rehman Ansari's GitHub profile, centered on CSS-based interface work and experimentation.",
+    technologies: ["CSS"],
+    githubUrl: "https://github.com/abdurrehman-135/m6-w2-d2-demo",
+    liveUrl: "",
+    imageUrl:
+      "https://placehold.co/1200x700/081425/adc6ff?text=M6+W2+D2+Demo",
+    featured: false,
+    status: "Draft",
+    order: 8,
   },
 ];
 
@@ -98,7 +155,7 @@ export const experienceData = [
   {
     title: "Lead Developer",
     organization: "Tech Solutions Inc.",
-    period: "2021 — Present",
+    period: "2021 - Present",
     location: "Remote",
     type: "work",
     summary:
@@ -112,7 +169,7 @@ export const experienceData = [
   {
     title: "Full Stack Developer",
     organization: "Creative Digital Agency",
-    period: "2019 — 2021",
+    period: "2019 - 2021",
     location: "Karachi, Pakistan",
     type: "work",
     summary:
@@ -125,9 +182,9 @@ export const experienceData = [
   },
   {
     title: "B.S. Computer Science",
-    organization: "State Engineering University",
-    period: "2015 — 2019",
-    location: "Pakistan",
+    organization: "Westcliff University",
+    period: "2015 - 2019",
+    location: "California, USA",
     type: "education",
     summary:
       "Focused on algorithms, data structures, software engineering, and practical full stack development principles.",

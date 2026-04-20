@@ -15,8 +15,7 @@ const SiteFooter = () => {
               Ready for future customization and real portfolio content updates.
             </h3>
             <p className="text-muted-custom mb-0">
-              Replace placeholder copy, imagery, and links anytime through the admin
-              dashboard or seed data.
+            
             </p>
           </div>
           <div className="col-lg-6">

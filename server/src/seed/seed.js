@@ -16,6 +16,7 @@ import {
   serviceData,
   skillData,
 } from "./seedData.js";
+import { fetchGithubProjects } from "./githubProjects.js";
 
 const seedDatabase = async () => {
   try {
@@ -38,9 +39,27 @@ const seedDatabase = async () => {
       role: "admin",
     });
 
+    let resolvedProjects = projectData;
+
+    try {
+      const githubProjects = await fetchGithubProjects(
+        process.env.GITHUB_USERNAME || "abdurrehman-135",
+      );
+
+      if (githubProjects.length) {
+        resolvedProjects = githubProjects;
+      }
+    } catch (error) {
+      console.warn("GitHub project sync failed, using fallback seed data:", error.message);
+    }
+
     await Promise.all([
-      Profile.create(profileData),
-      Project.insertMany(projectData),
+      Profile.create({
+        ...profileData,
+        githubUrl: `https://github.com/${process.env.GITHUB_USERNAME || "abdurrehman-135"}`,
+        projectCount: resolvedProjects.length,
+      }),
+      Project.insertMany(resolvedProjects),
       Skill.insertMany(skillData),
       Experience.insertMany(experienceData),
       Service.insertMany(serviceData),
