@@ -6,8 +6,8 @@ const ResumePage = () => (
   <>
     <PageHero
       eyebrow="Resume"
-      title="Experience, education, and technical breadth."
-      description="A resume page that combines timeline storytelling with live skills data for future updates."
+      title="Project experience and technical growth."
+      description="A resume page focused on campus project work, practical learning, and live skills data for future updates."
       pageTitle="Resume | Abdur Rehman Ansari"
     />
     <ExperienceSection />
@@ -16,4 +16,3 @@ const ResumePage = () => (
 );
 
 export default ResumePage;
-

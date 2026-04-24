@@ -23,8 +23,8 @@ const experienceSchema = new mongoose.Schema(
     },
     type: {
       type: String,
-      enum: ["work", "education", "certification"],
-      default: "work",
+      enum: ["project", "work", "education", "certification"],
+      default: "project",
     },
     summary: {
       type: String,
@@ -45,4 +45,3 @@ const experienceSchema = new mongoose.Schema(
 const Experience = mongoose.model("Experience", experienceSchema);
 
 export default Experience;
-

@@ -21,8 +21,8 @@ const ExperienceSection = ({ compact = false }) => {
         {!compact ? (
           <SectionHeader
             eyebrow="04 / Journey"
-            title="Professional Timeline"
-            description="Education, certifications, and work history managed through MongoDB-backed resume data."
+            title="Project Experience Timeline"
+            description="Hands-on campus projects and practical build experience managed through MongoDB-backed resume data."
           />
         ) : null}
         <div className="position-relative">
@@ -70,4 +70,3 @@ const ExperienceSection = ({ compact = false }) => {
 };
 
 export default ExperienceSection;
-

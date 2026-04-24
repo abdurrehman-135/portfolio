@@ -137,8 +137,19 @@ Backend API: `http://localhost:5000/api`
 - `GET /api/messages`
 - `PATCH /api/messages/:id/status`
 
-## Production Notes
+## Output
 
-- In production, the Express server is ready to serve the built React app from `client/dist`.
-- Update seed data, profile content, and admin credentials before deploying.
-- Replace placeholder URLs, images, and contact details with Abdur Rehman Ansari's real information.
+![1777018678467](devimages/image.png)
+
+![1777018678467](devimages/image2.png)
+
+![1777018678467](devimages/image3.png)
+
+![1777018678467](devimages/image4.png)
+
+![1777018678467](devimages/image5.png)
+
+![1777018678467](devimages/image6.png)
+
+![1777018678467](devimages/image7.png)
+

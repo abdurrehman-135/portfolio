@@ -18,7 +18,7 @@ const OverviewPanel = ({ projects, skills, experiences, services, messages }) =>
     {
       label: "Resume Items",
       value: experiences.length,
-      note: "Experience, education, and certifications",
+      note: "Project experience, education, and certifications",
       icon: "journal-code",
     },
     {
@@ -120,4 +120,3 @@ const OverviewPanel = ({ projects, skills, experiences, services, messages }) =>
 };
 
 export default OverviewPanel;
-

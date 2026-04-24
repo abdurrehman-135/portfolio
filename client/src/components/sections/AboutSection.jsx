@@ -19,6 +19,10 @@ const AboutSection = ({ compact = false }) => {
   }
 
   const projectCount = projects.length || profile.projectCount;
+  const experienceLabel =
+    Number(profile.yearsExperience) === 1
+      ? "Year Project Experience"
+      : "Years Project Experience";
 
   return (
     <section className="section-shell surface-panel" id="about-section">
@@ -41,7 +45,7 @@ const AboutSection = ({ compact = false }) => {
                   <div className="surface-card rounded-4 p-3 h-100">
                     <div className="stat-number">{profile.yearsExperience}+</div>
                     <div className="text-soft-custom text-uppercase small">
-                      Years Experience
+                      {experienceLabel}
                     </div>
                   </div>
                 </div>

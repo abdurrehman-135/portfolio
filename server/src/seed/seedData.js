@@ -1,11 +1,11 @@
 export const profileData = {
   name: "Abdur Rehman Ansari",
-  title: "Full Stack Developer",
+  title: "Student Full Stack Developer",
   availability: "Available for new projects",
   intro:
-    "Architecting high-performance digital experiences with precision and modern engineering principles. Specializing in scalable systems and elegant interfaces.",
+    "Building polished web projects while studying, with a focus on modern interfaces, clean code, and practical full stack foundations.",
   about:
-    "Abdur Rehman Ansari is a full stack developer focused on turning ideas into dependable, polished digital experiences. He enjoys working across the full stack, from building responsive and intuitive user interfaces to designing backend systems that are clean, scalable, and easy to maintain. With a strong interest in modern web technologies, problem-solving, and continuous learning, he approaches each project with a balance of technical precision and practical creativity. This portfolio starter now points to his real GitHub work and keeps the content structure easy to customize further as his experience and projects continue to grow.",
+    "Abdur Rehman Ansari is a campus-based full stack developer building practical web projects while continuing his studies. He enjoys working across the full stack, from responsive and intuitive user interfaces to backend systems that are clean, organized, and easy to maintain. His current experience comes from hands-on coursework, portfolio development, and JavaScript practice projects that show steady progress, problem-solving, and a growing command of modern web technologies.",
   location: "Global / Remote",
   email: "contact@abdurportfolio.dev",
   phone: "+92 300 0000000",
@@ -15,7 +15,7 @@ export const profileData = {
   twitterUrl: "https://twitter.com/abdurrehmanansari",
   heroImageUrl:
     "https://images.unsplash.com/photo-1500648767791-00dcc994a43?auto=format&fit=crop&w=900&q=80",
-  yearsExperience: 5,
+  yearsExperience: 1,
   projectCount: 46,
   educationLabel: "Westcliff University",
   interests: ["Scalable Systems", "API Design", "Modern UI Engineering"],
@@ -153,57 +153,88 @@ export const skillData = [
 
 export const experienceData = [
   {
-    title: "Lead Developer",
-    organization: "Tech Solutions Inc.",
-    period: "2021 - Present",
-    location: "Remote",
-    type: "work",
+    title: "Portfolio Website Development",
+    organization: "Personal Portfolio Project",
+    period: "2026 - Present",
+    location: "Campus / Remote",
+    type: "project",
     summary:
-      "Leading the development of enterprise-grade cloud applications, mentoring junior developers, and defining architecture for internal products.",
+      "Building and customizing a full stack portfolio to present projects, skills, services, resume content, and contact workflows while continuing studies.",
     highlights: [
-      "Shipped dashboard products used by distributed teams.",
-      "Improved deployment speed and release confidence.",
+      "Created responsive React pages with reusable sections, routing, and Bootstrap-based styling.",
+      "Connected portfolio content to Express, MongoDB, and admin-managed seed data.",
     ],
     order: 1,
   },
   {
-    title: "Full Stack Developer",
-    organization: "Creative Digital Agency",
-    period: "2019 - 2021",
-    location: "Karachi, Pakistan",
-    type: "work",
+    title: "Project3 Web Application",
+    organization: "JavaScript Project",
+    period: "2026",
+    location: "Campus",
+    type: "project",
     summary:
-      "Built responsive web applications for international clients with a strong focus on React, Node.js, and API integrations.",
+      "Developed a JavaScript project as an active code sample, focusing on organizing application logic and improving implementation confidence.",
     highlights: [
-      "Delivered branded marketing sites and internal portals.",
-      "Collaborated closely with designers on polished UI execution.",
+      "Practiced building project features from requirements into working browser behavior.",
+      "Used GitHub to keep the project reviewable and available as portfolio evidence.",
     ],
     order: 2,
   },
   {
-    title: "B.S. Computer Science",
-    organization: "Westcliff University",
-    period: "2015 - 2019",
-    location: "California, USA",
-    type: "education",
+    title: "Module 6 Week 3 Day 2 Homework",
+    organization: "Campus Coursework Project",
+    period: "2026",
+    location: "Campus",
+    type: "project",
     summary:
-      "Focused on algorithms, data structures, software engineering, and practical full stack development principles.",
+      "Completed a JavaScript coursework project that strengthened weekly delivery habits, code structure, and problem-solving practice.",
     highlights: [
-      "Graduated with a strong foundation in systems thinking.",
-      "Completed several capstone web application projects.",
+      "Applied JavaScript fundamentals through hands-on implementation tasks.",
+      "Maintained the repository as a clear record of current class progress.",
     ],
     order: 3,
   },
   {
-    title: "AWS Cloud Practitioner",
-    organization: "Amazon Web Services",
-    period: "2024",
-    location: "Online",
-    type: "certification",
+    title: "Module 6 Week 3 Day 1 Homework",
+    organization: "Campus Coursework Project",
+    period: "2026",
+    location: "Campus",
+    type: "project",
     summary:
-      "Validated baseline cloud platform knowledge for application deployment, security, and managed infrastructure planning.",
-    highlights: ["Focused on deployment readiness and cloud operations."],
+      "Built a JavaScript homework repository that shows current learning progress and repeated practice with modern web development concepts.",
+    highlights: [
+      "Translated class exercises into working code with organized commits.",
+      "Practiced debugging and improving JavaScript behavior across assignment requirements.",
+    ],
     order: 4,
+  },
+  {
+    title: "Module 6 Week 3 Day 2 Exercise",
+    organization: "HTML Practice Project",
+    period: "2026",
+    location: "Campus",
+    type: "project",
+    summary:
+      "Completed an HTML-focused exercise project to strengthen page structure, markup discipline, and frontend foundations.",
+    highlights: [
+      "Practiced semantic structure and clean document organization.",
+      "Used the exercise as part of a growing set of portfolio-ready learning projects.",
+    ],
+    order: 5,
+  },
+  {
+    title: "Module 6 Week 2 Day 2 Homework",
+    organization: "Campus Coursework Project",
+    period: "2026",
+    location: "Campus",
+    type: "project",
+    summary:
+      "Delivered a weekly JavaScript coursework project focused on consistent practice, implementation accuracy, and repository hygiene.",
+    highlights: [
+      "Reinforced JavaScript fundamentals through assignment-based development.",
+      "Kept the project available on GitHub as evidence of hands-on experience.",
+    ],
+    order: 6,
   },
 ];
 

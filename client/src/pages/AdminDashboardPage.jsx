@@ -95,7 +95,7 @@ const experienceFields = [
     name: "type",
     label: "Type",
     type: "select",
-    options: ["work", "education", "certification"],
+    options: ["project", "work", "education", "certification"],
     col: "col-md-6",
   },
   { name: "order", label: "Display Order", type: "number", col: "col-md-6" },
@@ -244,7 +244,7 @@ const AdminDashboardPage = () => {
       <ResourcePanel
         eyebrow="Resume Builder"
         title="Manage Experience"
-        description="Maintain work experience, education, and certifications shown in the professional timeline."
+        description="Maintain project experience, education, and certifications shown in the resume timeline."
         items={experiences}
         fields={experienceFields}
         columns={[

@@ -206,7 +206,7 @@ const ProfilePanel = ({ profile, onSave, isSaving }) => {
             />
           </div>
           <div className="col-md-4">
-            <label className="form-label text-soft-custom">Years Experience</label>
+            <label className="form-label text-soft-custom">Years Project Experience</label>
             <input
               className="form-control"
               name="yearsExperience"

@@ -7,11 +7,10 @@ export const experienceValidator = [
   body("summary").trim().notEmpty().withMessage("Summary is required."),
   body("type")
     .optional()
-    .isIn(["work", "education", "certification"])
+    .isIn(["project", "work", "education", "certification"])
     .withMessage("Invalid experience type."),
   body("highlights")
     .optional()
     .isArray()
     .withMessage("Highlights must be provided as an array."),
 ];
-

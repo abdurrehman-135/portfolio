@@ -88,7 +88,7 @@ const ContactSection = ({ compact = false }) => {
         <div className="row g-4 align-items-start">
           <div className="col-lg-5">
             <div className="content-card h-100">
-              <h3 className="section-title mb-3">Available for freelance and full-time work.</h3>
+              <h3 className="section-title mb-3">Available for freelance and project work.</h3>
               <p className="text-muted-custom fs-5 mb-4">{profile.intro}</p>
               <div className="d-grid gap-3">
                 <div className="surface-card rounded-4 p-3">
